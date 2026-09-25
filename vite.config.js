@@ -7,6 +7,3 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   base : "Saharsh.04"
 })
-
-
-
