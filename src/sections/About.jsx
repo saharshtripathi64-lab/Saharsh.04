@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import KT from "../assets/KT.jpg"
+import Contact from "./Contact";
 
 export default function About() {
   const stats = [
@@ -137,7 +139,7 @@ export default function About() {
               {/* Image */}
               <div className="relative aspect-square overflow-hidden rounded-[1.5rem]">
                 <img
-                  src="/profile.jpg"
+                  src={KT}
                   alt="Kartikey Tripathi"
                   className="h-full w-full object-cover transition duration-700 hover:scale-105"
                 />
@@ -300,7 +302,7 @@ export default function About() {
 
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
               <motion.a
-                href="#projects"
+                href="#Project"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 className="group inline-flex items-center justify-center gap-2 rounded-xl bg-white px-6 py-3.5 font-bold text-black transition hover:bg-[#1cd8d2]"
@@ -313,7 +315,7 @@ export default function About() {
               </motion.a>
 
               <motion.a
-                href="#contact"
+                href="#Contact"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 className="inline-flex items-center justify-center rounded-xl border border-white/10 bg-white/[0.04] px-6 py-3.5 font-semibold text-white backdrop-blur-md transition hover:border-[#1cd8d2]/40 hover:bg-[#1cd8d2]/10 hover:text-[#1cd8d2]"

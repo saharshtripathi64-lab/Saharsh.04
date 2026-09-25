@@ -625,7 +625,7 @@ export default function Navbar() {
               {/* contact */}
 
               <a
-                href="#contact"
+                href="#contacts"
                 className={`
                   group
 
