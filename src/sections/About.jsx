@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import KT from "../assets/KT.jpg"
-import Contact from "./Contact";
 
 export default function About() {
   const stats = [
